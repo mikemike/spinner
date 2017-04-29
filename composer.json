@@ -1,0 +1,20 @@
+{
+    "name": "mikemike/spinner",
+    "description": "A Laravel package to spin content.",
+    "keywords": ["spin", "spinner", "spinning", "spyntax", "spintax", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Griffiths",
+            "email": "mgriffiths@gmail.com"
+        }
+    ], 
+    "autoload": {
+        "psr-4": {
+            "Mikemike\\Spinner\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
