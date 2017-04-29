@@ -19,13 +19,27 @@ may produce:
 `Hey my name is Bob`
 etc...
 
+## Installation
+Add `"mikemike/spinner": "dev-master"` to your `composer.json`.
+
+Run `composer update`
+
+Add `Mikemike\Spinner\SpinnerServiceProvider::class,` to the `providers` array in your `config/app.php`.
+
+Add `'Spinner' => Mikemike\Spinner\SpinnerFacade::class,` to the `aliases` array in your `config/app.php`.
+
 ## How to use
+Add the class at the top of your class:
+```
+use Spinner;
+```
+And then call it anywhere in your code:
 ```
 $spinner = new Spinner();
 
-$string = '{Hey|Howdy|Hi there|Hi} {there|mate|bud|buddy}, {{how are|how're} {you|ya}|how you doin'|how {you|ya} {feeling|hanging}|you doing {OK|alright}}?'
+$string = '{Hey|Howdy|Hi there|Hi} {there|mate|bud|buddy}, {{how are|how\'re} {you|ya}|how you doin\'|how {you|ya} {feeling|hanging}|you doing {OK|alright}}?';
 
-echo $spinner->process($string);
+echo $spinner::process($string);
 ```
 
 ## Notes
