@@ -44,3 +44,12 @@ echo $spinner::process($string);
 
 ## Notes
 Nested spins are supported, as illustrated in the above example.
+
+## Sponsors
+
+This package is sponsored by [Accreditly](https://accreditly.io), who offer a number of web development certifications, including:
+
+* [PHP Certification](https://accreditly.io/certifications/php-fundamentals)
+* [JavaScript Certification](https://accreditly.io/certifications/javascript-fundamentals)
+* [Database Fundamentals Certification](https://accreditly.io/certifications/database-fundamentals)
+* [WordPress Certification](https://accreditly.io/certifications/wordpress-development)
